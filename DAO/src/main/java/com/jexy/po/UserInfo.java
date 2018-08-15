@@ -1,8 +1,12 @@
 package com.jexy.po;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class UserInfo {
+/**
+ * @author bignox
+ */
+public class UserInfo implements Serializable {
     private Long id;
 
     private String firstName;
